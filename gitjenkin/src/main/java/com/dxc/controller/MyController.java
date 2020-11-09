@@ -20,5 +20,9 @@ public class MyController {
 	public String how() {
 		return "how are you";
 	}
+	@GetMapping("/test")
+	public String test() {
+		return "test";
+	}
 
 }
