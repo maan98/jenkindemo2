@@ -15,5 +15,10 @@ public class MyController {
 	public String sayHello() {
 		return "hello world";
 	}
+	
+	@GetMapping("/how")
+	public String how() {
+		return "how are you";
+	}
 
 }
