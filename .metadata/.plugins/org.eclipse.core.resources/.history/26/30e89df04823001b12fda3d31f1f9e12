@@ -8,7 +8,7 @@ public class MyController {
 	
 	@GetMapping("/hi")
 	public String sayHi() {
-		return "hi world...from jenkins";
+		return "hi world";
 	}
 	
 	@GetMapping("/hello")
