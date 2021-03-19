@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Test') {
 steps {
-sh "mvn test -f jenkindemo2.gitt"
+sh "mvn test -f jenkindemo2.git"
 }
 }
 stage('Deploy') {
