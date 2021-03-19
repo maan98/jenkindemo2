@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Repositiry') {
 steps {
-sh "https://github.com/maan98/jenkindemo2.git"
+sh "git@github.com:maan98/jenkindemo2.git"
 }
 }
 stage('Test') {
