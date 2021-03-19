@@ -3,12 +3,12 @@ agent any
 stages {
 stage('Test') {
 steps {
-sh "mvn test -f jenkindemo2.git"
+sh "mvn test -f gitjenkin.git"
 }
 }
 stage('Deploy') {
 steps {
-sh "mvn package -f jenkindemo2.git"
+sh "mvn package -f gitjenkin.git"
 }
 }
 }
