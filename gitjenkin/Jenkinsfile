@@ -1,15 +1,10 @@
 pipeline {
-agent any
-stages {
-stage('Test') {
-steps {
-sh "mvn test -f gitjenkin.git"
-}
-}
-stage('Deploy') {
-steps {
-sh "mvn package -f gitjenkin.git"
-}
-}
-}
+    agent any 
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Hello world!' 
+            }
+        }
+    }
 }
